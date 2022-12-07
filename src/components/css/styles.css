@@ -1,0 +1,222 @@
+.navBarTop{
+    margin-top: 10px;
+    background-image: linear-gradient(-45deg,rgba(255, 200, 0) 390px,rgb(0, 50, 70) 0);;
+}
+.navBarButton{
+    font-size: 13px;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.nameStamp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left:5px solid rgb(255, 200, 0);
+    padding-left: 8px;
+}
+.contactMe{
+    background-color: rgb(255, 220, 91);
+    color: rgb(0, 69, 61);
+    padding:2px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+}
+.contactMe:hover{
+    background-color: rgba(255, 200, 0);
+}
+h4,h6{
+    margin:-5px 0 -5px 0;
+    color: white;
+}
+h4, h1,h3, h5{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+h6{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: 200;
+}
+.navBarItems{
+   display: flex;
+   justify-content:flex-end; 
+}
+.Offcanvas{
+    background-color: rgb(0, 50, 70);
+    color: rgba(255, 255, 255, 0.8);
+}
+.homePageSection{
+    height: 100vh;
+    margin: 135px 0 0 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.homePageSectionMain{
+    height: fit-content;
+    margin: 135px 0 0 0;
+    overflow: hidden;
+}
+.mainBody{
+    height: 120vh;
+    margin-bottom: 10px;
+}
+.socialButtonLeft{
+    position:fixed;
+    top: 40%;
+    left: 1%;
+    z-index: 10;
+    border: none;
+    transform: scale(1.2);
+}
+.socialMediaRight{
+    position:fixed;
+    top:40%;
+    right:0.8%;
+    z-index: 10;
+    border: none;
+    transform: scale(1.2);
+}
+.socialButton{
+    background-color: rgb(255, 200, 0);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.socialButton:hover{
+    background-color: rgb(0, 50, 70);
+}
+.socialButtonIcon{
+    color:rgb(0, 69, 61);
+}
+.socialButtonIcon:hover{
+    color: rgb(255, 200, 0);;
+}
+.homePageSidebar{
+    height: fit-content;
+    margin: 115px 0 20px 0px;
+}
+h4{
+    color: rgb(255,200,0);
+}
+.heroText{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.heroImg{	
+    border-radius: 49px 0px / 44px 86px;
+	border-top: 10px double rgb(255, 200, 0);
+	border-bottom: 10px double rgb(255, 200, 0);
+    filter: grayscale(0.6);
+}
+.heroImg:hover{
+    filter: grayscale(0)
+}
+.selfPresentation{
+    margin: auto;
+    text-align: justify;
+    width: 90%;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-weight: 200;
+}
+.sideBarIcon{
+    color:rgb(255, 200, 0);
+    font-size: 12px;
+}
+
+.myImg{
+    width: 100%;
+    transform: scale(0.9);
+    filter:grayscale(0.6);
+  
+    --mask: linear-gradient(45deg,#0000 42.43px,#000 0 calc(100% - 42.43px),#0000 0);	
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+    transition: cubic-bezier(.17,.67,.83,.67);
+}
+.myImg:hover{
+    transform: scale(0.98); 
+    filter:grayscale(0);
+}
+.card{
+    border: none;
+    background-color: rgba(0, 50, 70);
+    color: rgba(255, 255, 255, 0.8);
+    filter: drop-shadow(0 0 0.45rem rgba(255, 236, 150, 0.601));
+}
+.cardImg{
+    border: none;
+    background-color: rgba(0, 50, 70,.8);
+}
+.myDetail{
+    color: rgba(255, 255, 255, 0.81);
+    display: block;
+}
+tr {
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+td {
+    padding: 10px 5px;
+}
+.myTable{
+    width: 100%;
+    border-radius: 5px;
+}
+.abilityTitle{
+    margin-top: 20px;
+    width: 50%;
+    padding:10px;
+    border-top: 2px solid rgb(255,200,0);
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1rem;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: 600;
+}
+.abilityParcials{
+font-size: 0.8rem;
+
+}
+.circleProgressbar {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+
+.footer{
+    display: flex;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.799);
+    line-height: 20px;
+    background-image: linear-gradient(-45deg,rgb(0, 50, 70) 416.47px,rgb(255, 200, 0) 0);;
+}
+
+ /* ScrollBar styling */
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 200, 0, 0.6); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 200, 0, 0.8); 
+  }
