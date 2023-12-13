@@ -23,7 +23,7 @@ function TopBar() {
         style={{ height: "450px" }}
       >
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>What took you so long?</Offcanvas.Title>
+          <Offcanvas.Title>I am waiting...</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ContactForm />
@@ -47,7 +47,7 @@ function TopBar() {
             <img
               className="myImg"
               variant="top"
-              src="imgs/me2.png"
+              src="imgs/me2.jpg"
               alt="myImage"
             />
           </picture>
@@ -57,6 +57,11 @@ function TopBar() {
             <Nav className="ml-auto navBarButton">
               <Nav.Link href="#projects" className="text-light">
                 <i class="fa-solid fa-diagram-project me-2"></i> Projects
+              </Nav.Link>
+            </Nav>
+            <Nav className="ml-auto navBarButton">
+              <Nav.Link href="#ability" className="text-light">
+                <i class="fa-solid fa-diagram-project me-2"></i> Abilities
               </Nav.Link>
             </Nav>
             <Nav className="ms-3">

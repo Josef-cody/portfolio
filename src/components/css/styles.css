@@ -88,17 +88,25 @@ h4{
     align-items: center;
    
 }
-
+picture {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
 .heroImg{	
     border-radius: 49px 0px / 44px 86px;
 	border-top: 10px double rgb(255, 200, 0);
 	border-bottom: 10px double rgb(255, 200, 0);
-    
+    width: 100%;
+    margin: 1rem, 0 1rem 0;
+    margin: auto;
 }
+
 .Hi{
     font-size: 18rem;
     text-shadow: 3px 3px 13px  white;
     padding: 8rem;
+    text-align: center;
 }
 .selfPresentation{
     font-size: 2vh;
@@ -168,7 +176,7 @@ td {
     margin-top: 20px;
     width: 50%;
     padding:10px;
-    border-top: 2px solid rgb(255,200,0);
+    border-bottom: 2px solid rgb(255,200,0);
     color: rgba(255, 255, 255, 0.85);
     font-size: 1rem;
     font-family: 'Anek Devanagari', sans-serif;
@@ -194,7 +202,7 @@ font-size: 0.8rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.799);
     line-height: 20px;
-    background-image: linear-gradient(-45deg,rgb(0, 50, 70) 416.47px,rgb(255, 200, 0) 0);;
+    background-image: linear-gradient(-45deg,rgb(0, 50, 70) 416.47px,rgb(240, 188, 0) 0);;
 }
 
  /* ScrollBar styling */
